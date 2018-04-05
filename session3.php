@@ -17,10 +17,9 @@ if ($_SESSION["username"] != "") {
     if ($_SESSION["name"] != "") {
         echo "<h2>Your custom name is ";
         echo $_SESSION["name"];
-        echo "</h2>";
     }
 
-    echo "<br><a href='session3.php'>And another page</a>";
+    echo "<br>This is the last page";
 }else{
 ?>
 
